@@ -1,13 +1,18 @@
-# Phase One: Fuzzing Techniques with Jazzer, AFL, and Peach
+# Phase One: Fuzzing Techniques with AFL, Jazzer, and Peach
 
-## 1. Introduction
+## Introduction
 
-Fuzzing is a software testing technique that injects malformed, unexpected, or invalid inputs into a program to uncover vulnerabilities, bugs, or security flaws. In this phase, we focus on the following fuzzing tools:
+Fuzzing is a software testing technique that involves injecting invalid, malformed, or unexpected inputs into a program to identify vulnerabilities, bugs, or security flaws. In this phase, we focused on implementing fuzzing techniques using AFL, with plans to explore Jazzer and Peach in subsequent phases.
 
-- **Jazzer**: A mutation-based fuzzer for Java applications.
-- **AFL (American Fuzzy Lop)**: A coverage-guided fuzzer for C/C++ applications.
-- **Peach Fuzzer**: A generation-based fuzzer for structured data like protocols and file formats.
+## Objectives
 
-This document outlines the setup, experimentation, and results from the first phase of fuzzing using these tools.
+1. **Objective 1**: Implement fuzzing using AFL.
+2. **Objective 2**: Explore fuzzing techniques using Jazzer.
+3. **Objective 3**: Investigate fuzzing methodologies with Peach.
 
----
+## Environment Setup
+
+### AFL Installation
+1. Install AFL:
+   ```bash
+   sudo apt install afl
