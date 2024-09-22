@@ -11,13 +11,3 @@ Fuzzing is a software testing technique that injects malformed, unexpected, or i
 This document outlines the setup, experimentation, and results from the first phase of fuzzing using these tools.
 
 ---
-
-## 2. Environment Setup
-
-### 2.1 Jazzer Setup
-
-- **Install Java SDK**:
-  Download and install the Java Development Kit (JDK).
-  Verify installation:
-  ```bash
-  java -version
